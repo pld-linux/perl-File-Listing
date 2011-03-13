@@ -54,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %{perl_vendorlib}/File/Listing.pm
 %{_mandir}/man3/File::Listing.3pm*
