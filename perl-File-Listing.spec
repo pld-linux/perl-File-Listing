@@ -8,13 +8,13 @@
 Summary:	File::Listing - parse directory listing
 Summary(pl.UTF-8):	File::Listing - analiza listingu katalogu
 Name:		perl-File-Listing
-Version:	6.03
+Version:	6.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ad56d06a719503198c02188995f32c9e
+# Source0-md5:	83f636b477741f3a014585bb9cc079a6
 URL:		http://search.cpan.org/dist/File-Listing/
 BuildRequires:	perl-devel >= 1:5.8.8
 BuildRequires:	rpm-perlprov >= 4.1-13
