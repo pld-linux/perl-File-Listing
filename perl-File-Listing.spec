@@ -4,7 +4,6 @@
 #
 %define		pdir	File
 %define		pnam	Listing
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::Listing - parse directory listing
 Summary(pl.UTF-8):	File::Listing - analiza listingu katalogu
 Name:		perl-File-Listing
