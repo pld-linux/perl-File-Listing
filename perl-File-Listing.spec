@@ -1,24 +1,26 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	File
 %define		pnam	Listing
 Summary:	File::Listing - parse directory listing
 Summary(pl.UTF-8):	File::Listing - analiza listingu katalogu
 Name:		perl-File-Listing
-Version:	6.04
+Version:	6.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	83f636b477741f3a014585bb9cc079a6
-URL:		http://search.cpan.org/dist/File-Listing/
+# Source0-md5:	6f298b96fdc072fbd0e0c2890a70ab2e
+URL:		https://metacpan.org/release/File-Listing
 BuildRequires:	perl-devel >= 1:5.8.8
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-HTTP-Date >= 6
+BuildRequires:	perl-Test-Simple >= 0.98
 %endif
 Requires:	perl-HTTP-Date >= 6
 Conflicts:	perl-libwww < 6
