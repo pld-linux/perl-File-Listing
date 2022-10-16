@@ -7,13 +7,13 @@
 Summary:	File::Listing - parse directory listing
 Summary(pl.UTF-8):	File::Listing - analiza listingu katalogu
 Name:		perl-File-Listing
-Version:	6.14
+Version:	6.15
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	cf60a79563185391831613178a79b4cd
+# Source0-md5:	8ba34641a6c5a2ec1b0bf7064f68c535
 URL:		https://metacpan.org/release/File-Listing
 BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.8
